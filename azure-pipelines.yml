@@ -22,5 +22,6 @@ steps:
     testResultsFiles: '**/TEST-*.xml'
     tasks: 'build'
 
+
 - checkout: self
-  persistCredentials: true
+  persistCredentials: true    
